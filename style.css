@@ -191,6 +191,60 @@ hr{
     padding: 10px 16px;
 }
 
+.get_updates{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.get_updates h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.get_updates p{
+    width: 60%;
+    text-align: center;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.get_updates div{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 244, 214);
+}
+
+input[type="email"]{
+    width: 300px;
+    height: 32px;
+    padding-left: 10px;
+    background-color: rgb(217, 217, 217);
+    border: none;
+    border-radius:  5px 5px 5px 5px;
+}
+
+input[type="email"]:focus{
+    outline: #fff;
+}
+
+input[type="submit"]{
+    width: 100px;
+    height: 33px;
+    background-color: rgb(255, 89, 89);
+    color: #fff;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
 footer{
     width: 100%;
     background-color: rgb(11, 13, 23);
