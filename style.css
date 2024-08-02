@@ -234,6 +234,7 @@ input[type="email"]{
 
 input[type="email"]:focus{
     outline: #fff;
+    font-size: 1rem;
 }
 
 input[type="submit"]{
