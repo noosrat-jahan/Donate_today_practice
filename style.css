@@ -225,7 +225,7 @@ hr{
 
 input[type="email"]{
     width: 300px;
-    height: 32px;
+    height: 33px;
     padding-left: 10px;
     background-color: rgb(217, 217, 217);
     border: none;
@@ -264,4 +264,45 @@ footer h5{
     font-size: 0.7rem;
     color: #fff;
     opacity: 0.8;
+}
+
+
+
+/* responsive design for mobile device */
+
+@media screen and (max-width: 576px) {
+    .banner{
+        width: 100%;
+        height: 400px;
+    }
+    .banner h1{
+        font-size: 2rem;
+    }
+    .banner p{
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    .donate_today_section{
+        width: 90%;
+    }
+    .donate_today_section p{
+        width: 90%;
+    }
+    .cards_parent, .donate_card_container{
+        flex-direction: column;
+    }
+    .how_to_contribute{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .get_updates{
+        width: 85%;
+    }
+    input[type="email"]{
+        width: 180px;
+    }
+    input[type="submit"]{
+        width: 70px;
+    
+        font-size: 0.6rem;
+    }
 }
